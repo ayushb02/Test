@@ -4,12 +4,12 @@ class BankAccount:
         self.name = name
         self.balance = balance
       
- # This fuction will update the account in the event of deposit
+
     def deposit(self, amount):
         self.balance += amount
         return self.balance
       
-  # This fuction will update the account in the event of withdrawal
+ l
     def withdraw(self, amount):
         if amount > self.balance:
             print('Balance is not sufficient.')
